@@ -74,7 +74,6 @@ he.makeRequest = function(action, params, callback) {
     }).on('error',function(err){
     	callback(err,null);
     });
-    console.log(params);
     post_req.write(params);
     post_req.end();
 };
