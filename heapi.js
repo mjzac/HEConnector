@@ -15,7 +15,6 @@ var he = HE.prototype;
 
 /*  Initialize the required parameters */
 function HE(options){
-    console.log(options);
     this._client_secret = options.client_secret === undefined? null : options.client_secret;
     this._time_limit = options.time_limit === undefined ? 5 : options.time_limit > 5 ? 5 : options.time_limit;
     this._memory_limit = options.memory_limit === undefined ? 262144 : options.memory_limit;
