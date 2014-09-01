@@ -1,7 +1,8 @@
-//A Node js wrapper for hackerearth api.
+#A Node js wrapper for hackerearth api.
 
-//usage:
+###usage:
 
+```
 var hackerApi = require('./heapi');
 var options = {
 	client_secret : 'client secret',
@@ -33,3 +34,4 @@ handle.run(prog_data, function(err, res){
 		console.log(res);
 });
 */ 
+```
