@@ -1,6 +1,6 @@
-A Node js wrapper for hackerearth api.
+//A Node js wrapper for hackerearth api.
 
-usage:
+//usage:
 
 var hackerApi = require('./heapi');
 var options = {
